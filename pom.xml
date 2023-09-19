@@ -27,6 +27,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+			<groupId>aritana</groupId>
+			<artifactId>aritana</artifactId>
+			<scope>system</scope>
+			<version>0.0.1</version>
+			<systemPath>${project.basedir}/lib/aritana.jar</systemPath>
+		</dependency>
 	</dependencies>
 
 	<build>
